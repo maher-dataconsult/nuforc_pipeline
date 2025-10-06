@@ -1,8 +1,8 @@
 # UFO Data Pipeline 🛸
 
-**● Orchestration**: Dagster <br>
-**● Containerization**: Docker <br><br>
-**➜** Scrapping > <b>duckdb</b> > <u>(dlt)</u> > <b>snowflake</b> > <u>(dbt)</u> > <b>PowerBI</b>
+● Orchestration: **Dagster** <br>
+● Containerization: **Docker** <br><br>
+**➜** Scrapping ➜ Duckdb ➜ <u>(dlt)</u> ➜ Snowflake ➜ <u>(DBT)</u> ➜ PowerBI
 
 [![image](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)
 
