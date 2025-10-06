@@ -1,0 +1,13 @@
+ufo_dbt_profile:
+  outputs:
+    dev:
+      account: IWSYKCX-YO28402
+      database: UFO
+      password: '@|EHSmK13DELAW'
+      role: ACCOUNTADMIN
+      schema: UFO
+      threads: 1
+      type: snowflake
+      user: KILLSPORT
+      warehouse: COMPUTE_WH
+  target: dev

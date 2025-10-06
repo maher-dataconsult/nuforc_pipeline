@@ -1,0 +1,13 @@
+# Orchestration
+dagster
+dagster-webserver
+
+# Data Manipulation & Scraping
+pandas
+playwright
+
+# Data Loading & Warehousing
+duckdb
+dlt[snowflake,parquet]
+dbt-core
+dbt-snowflake

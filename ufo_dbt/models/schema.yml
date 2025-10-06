@@ -1,0 +1,69 @@
+version: 2
+
+sources:
+  - name: ufo_raw
+    description: "Raw UFO reports source"
+    database: UFO
+    schema: RAW
+    tables:
+      - name: ufo_reports_raw
+        description: "Raw UFO sighting reports"
+        columns:
+          - name: status
+            description: "Status of the report"
+          - name: link
+            description: "Link to the sighting"
+          - name: occurred
+            description: "Date and time the sighting occurred"
+            tests:
+              - not_null
+          - name: city
+            description: "City where the sighting occurred"
+          - name: state
+            description: "State or province where the sighting occurred"
+          - name: country
+            description: "Country where the sighting occurred"
+          - name: shape
+            description: "Reported shape of the UFO"
+          - name: summary
+            description: "Summary description of the sighting"
+          - name: reported
+            description: "Date and time the report was filed"
+          - name: media
+            description: "Flag indicating if media is available"
+          - name: explanation
+            description: "Explanation for the sighting"
+
+models:
+  - name: ufo_reports
+    description: "Cleaned and normalized UFO sighting reports"
+    columns:
+      - name: id
+        description: "Primary key for the report"
+        tests:
+          - unique
+          - not_null
+      - name: date
+        description: "Date the sighting occurred"
+        tests:
+          - not_null
+      - name: time
+        description: "Time the sighting occurred"
+        tests:
+          - not_null
+      - name: city
+        description: "City where the sighting occurred"
+      - name: state
+        description: "State or province where the sighting occurred"
+      - name: country
+        description: "Country where the sighting occurred"
+      - name: shape
+        description: "Reported shape of the UFO"
+      - name: summary
+        description: "Summary description of the sighting"
+      - name: reported
+        description: "Date and time the report was filed"
+      - name: media
+        description: "Flag indicating if media is available (Y/N)"
+      - name: explanation
+        description: "Normalized explanation for the sighting"
