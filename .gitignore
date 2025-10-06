@@ -1,0 +1,6 @@
+# dbt generated folders
+ufo_dbt/logs/dbt.log
+ufo_dbt/target/manifest.json
+
+# dbt user-specific configuration
+/ufo_dbt/.user.yml
