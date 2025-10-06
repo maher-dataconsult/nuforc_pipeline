@@ -1,8 +1,30 @@
 # UFO Data Pipeline 🛸
 
-This project uses Docker to run a data pipeline that scrapes data, loads it to Snowflake, and transforms it with dbt.
+**● Orchestration**: Dagster <br>
+**● Containerization**: Docker <br><br>
+**➜** Scrapping > <b>duckdb</b> > <u>(dlt)</u> > <b>snowflake</b> > <u>(dbt)</u> > <b>PowerBI</b>
 
----
+[![image](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)
+
+-----
+
+### `[ TECHNOLOGY MATRIX ]`
+
+| Category | Technology / Service | Purpose |
+| :--- | :--- | :--- |
+| **Orchestration** | Dagster | Defining, executing, and visualizing the end-to-end data pipeline. |
+| **Containerization** | Docker | Creating a consistent and portable environment for all scripts and dependencies. |
+| **Data Ingestion (Extraction)**| Python (Playwright) | Scraping raw UFO sighting data from the NUFORC public website. |
+| **Intermediate Storage** | DuckDB | Staging the raw scraped data in a local, file-based analytical database. |
+| **Data Ingestion (Loading)**| Python `(dlt)` (Data Load Tool) | Loading data from the intermediate DuckDB database into Snowflake. |
+| **Data Warehouse** | Snowflake | Storing raw (Bronze) and transformed (Silver/Gold) data for analysis. |
+| **Data Transformation** | DBT | Cleaning, standardizing, and modeling the data directly within Snowflake. |
+| **BI & Data Modeling** | Power BI | Building the final dashboards and reports for data analysis. |
+| **Programming Language** | Python | The core language used for scripting the scraping, orchestration, and data loading scripts. |
+| **Version Control** | Git & GitHub | Managing and tracking changes to the project's source code. |
+
+
+-----
 
 ## Setup
 
@@ -15,25 +37,25 @@ This project uses Docker to run a data pipeline that scrapes data, loads it to S
     ```bash
     cd nuforc_pipeline
     ```
-*Note: Before running, make sure you have created and configured your `.dlt/secrets.toml` and `profiles/profiles.yml` files.*
+    
+## Build and Run
 
----
-
-## How to Run
-
-1.  **Build the Docker image:**
+3.  **Build the Docker image:**
     ```bash
     docker build -t ufo-pipeline .
     ```
 
-2.  **Run the pipeline:**
+4.  **Run the pipeline:**
 
-    **For Linux:**
+    **`For Linux:`**
     ```bash
     docker run --rm -v "$(pwd)/.dlt:/root/.dlt" -v "$(pwd)/profiles:/root/.dbt" ufo-pipeline
     ```
 
-    **For Windows (Command Prompt):**
+    **`For Windows (Command Prompt):`**
     ```cmd
     docker run --rm -v "%cd%\.dlt:/root/.dlt" -v "%cd%\profiles:/root/.dbt" ufo-pipeline
     ```
+-----
+*Note: Before running, make sure you have created and configured your `.dlt/secrets.toml` and `profiles/profiles.yml` files.*
+
