@@ -5,7 +5,7 @@
 ● Containerization: **Docker** <br><br>
 **➜** Scrapping ➜ Duckdb ➜ <u>(dlt)</u> ➜ Snowflake ➜ <u>(DBT)</u> ➜ PowerBI
 
-[![image](workflow_chart.jpeg)
+[image](workflow_chart.jpeg)
 
 -----
 
