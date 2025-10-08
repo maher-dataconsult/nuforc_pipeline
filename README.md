@@ -58,4 +58,6 @@
     ```
 -----
 *Note: Before running, make sure you have created and configured your `.dlt/secrets.toml` and `profiles/profiles.yml` files.*
+-----
+<iframe title="ufo_dash" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=9f41463f-f029-4375-9dde-10498be9927b&autoAuth=true&ctid=0bc92751-071a-4e2c-a48b-633206fef374" frameborder="0" allowFullScreen="true"></iframe>
 
