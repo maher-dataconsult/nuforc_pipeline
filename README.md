@@ -25,10 +25,10 @@
 | **Version Control** | Git & GitHub | Managing and tracking changes to the project's source code. |
 
 ## UFO Dashboard Preview
-![image](report_dash.png)
+![image](report_dash_sd.png)
 
 <p align="center">
-  <a href="https://app.powerbi.com/view?r=eyJrIjoiOWY0MTQ2M2YtZjAyOS00Mzc1LTlkZGUtMTA0OThiZTk5MjdiIiwiaCI6IjBiYzkyNzUxLTA3MWEtNGUyYy1hNDhiLTYzMzIwNmZlZjM3NCIsImMiOjh9">View Full Interactive Version</a>
+  <a href="https://app.powerbi.com/reportEmbed?reportId=9f41463f-f029-4375-9dde-10498be9927b&autoAuth=true&ctid=0bc92751-071a-4e2c-a48b-633206fef374">View Full Interactive Version</a>
 </p>
 
 ## Setup
