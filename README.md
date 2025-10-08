@@ -5,7 +5,7 @@
 ● Containerization: **Docker** <br><br>
 **➜** Scrapping ➜ Duckdb ➜ <u>(dlt)</u> ➜ Snowflake ➜ <u>(DBT)</u> ➜ PowerBI
 
-[image](workflow_chart.jpeg)
+![image](workflow_chart.jpeg)
 
 -----
 
@@ -24,12 +24,12 @@
 | **Programming Language** | Python | The core language used for scripting the scraping, orchestration, and data loading scripts. |
 | **Version Control** | Git & GitHub | Managing and tracking changes to the project's source code. |
 
------
 ## UFO Dashboard Preview
-[![image](report_dash.png)
+![image](report_dash.png)
 
-[View Full Interactive Version](https://app.powerbi.com/view?r=eyJrIjoiOWY0MTQ2M2YtZjAyOS00Mzc1LTlkZGUtMTA0OThiZTk5MjdiIiwiaCI6IjBiYzkyNzUxLTA3MWEtNGUyYy1hNDhiLTYzMzIwNmZlZjM3NCIsImMiOjh9)
------
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiOWY0MTQ2M2YtZjAyOS00Mzc1LTlkZGUtMTA0OThiZTk5MjdiIiwiaCI6IjBiYzkyNzUxLTA3MWEtNGUyYy1hNDhiLTYzMzIwNmZlZjM3NCIsImMiOjh9">View Full Interactive Version</a>
+</p>
 
 ## Setup
 
