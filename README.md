@@ -1,10 +1,11 @@
 # NUFORC Data Pipeline 🛸
+[![image](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)
 
 ● Orchestration: **Dagster** <br>
 ● Containerization: **Docker** <br><br>
 **➜** Scrapping ➜ Duckdb ➜ <u>(dlt)</u> ➜ Snowflake ➜ <u>(DBT)</u> ➜ PowerBI
 
-[![image](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)](https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/545260)
+[![image](workflow_chart.jpeg)
 
 -----
 
@@ -23,7 +24,11 @@
 | **Programming Language** | Python | The core language used for scripting the scraping, orchestration, and data loading scripts. |
 | **Version Control** | Git & GitHub | Managing and tracking changes to the project's source code. |
 
+-----
+## UFO Dashboard Preview
+[![image](report_dash.png)
 
+[View Full Interactive Version](https://app.powerbi.com/view?r=eyJrIjoiOWY0MTQ2M2YtZjAyOS00Mzc1LTlkZGUtMTA0OThiZTk5MjdiIiwiaCI6IjBiYzkyNzUxLTA3MWEtNGUyYy1hNDhiLTYzMzIwNmZlZjM3NCIsImMiOjh9)
 -----
 
 ## Setup
@@ -58,7 +63,3 @@
     ```
 -----
 *Note: Before running, make sure you have created and configured your `.dlt/secrets.toml` and `profiles/profiles.yml` files.*
------
-## UFO Dashboard Preview
-
-[View Full Interactive Version](https://app.powerbi.com/view?r=eyJrIjoiOWY0MTQ2M2YtZjAyOS00Mzc1LTlkZGUtMTA0OThiZTk5MjdiIiwiaCI6IjBiYzkyNzUxLTA3MWEtNGUyYy1hNDhiLTYzMzIwNmZlZjM3NCIsImMiOjh9)
