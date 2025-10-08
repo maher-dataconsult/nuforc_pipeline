@@ -59,5 +59,6 @@
 -----
 *Note: Before running, make sure you have created and configured your `.dlt/secrets.toml` and `profiles/profiles.yml` files.*
 -----
-<iframe title="ufo_dash" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=9f41463f-f029-4375-9dde-10498be9927b&autoAuth=true&ctid=0bc92751-071a-4e2c-a48b-633206fef374" frameborder="0" allowFullScreen="true"></iframe>
+## UFO Dashboard Preview
 
+[View Full Interactive Version](https://app.powerbi.com/view?r=eyJrIjoiOWY0MTQ2M2YtZjAyOS00Mzc1LTlkZGUtMTA0OThiZTk5MjdiIiwiaCI6IjBiYzkyNzUxLTA3MWEtNGUyYy1hNDhiLTYzMzIwNmZlZjM3NCIsImMiOjh9)
